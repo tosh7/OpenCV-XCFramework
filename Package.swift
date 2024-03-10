@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "opencv2", platforms: [.iOS(.v11)],
+  name: "opencv2", platforms: [.iOS(.v13)],
   products: [
 	.library(name: "opencv2", targets: ["opencv2"]),
   ],
